@@ -1,0 +1,95 @@
+intents:
+
+  - tag: ask_open_time
+    patterns:
+      - kampus buka jam berapa
+      - jam operasional kampus
+      - kampus buka sampai jam berapa
+      - jam kerja universitas codepolitan
+      - pelayanan kampus buka jam berapa
+      - kampus buka setiap hari tidak
+    responses:
+      - Kampus Universitas Codepolitan buka setiap hari pukul 08.00 sampai 16.00.
+      - Jam operasional kampus adalah pukul 08.00 hingga 16.00 setiap hari.
+
+  - tag: ask_location
+    patterns:
+      - kampus di mana
+      - alamat universitas codepolitan
+      - lokasi kampus codepolitan
+      - universitas codepolitan di mana
+      - kampus dekat apa
+    responses:
+      - Universitas Codepolitan beralamat di Karawang, Jl. Jenderal Sudirman, Kecamatan Kota Lama, Jawa Barat.
+      - Kampus Universitas Codepolitan berada di Karawang, bersebelahan dengan Kampus BSI dan di depan Kantor Dishub.
+
+  - tag: ask_prodi
+    patterns:
+      - ada prodi apa saja
+      - jurusan apa saja di universitas codepolitan
+      - program studi codepolitan
+      - d4 jurusan apa
+      - teknik apa saja di codepolitan
+    responses:
+      - Universitas Codepolitan memiliki Program Studi D4 Teknik Rekayasa Industri, Teknik Rekayasa Komputer, dan Teknik Rekayasa Logistik.
+      - Program studi yang tersedia adalah D4 Teknik Rekayasa Industri, Teknik Rekayasa Komputer, dan Teknik Rekayasa Logistik.
+
+  - tag: ask_registration
+    patterns:
+      - cara daftar kuliah di codepolitan
+      - bagaimana pendaftaran universitas codepolitan
+      - alur pendaftaran mahasiswa baru
+      - syarat masuk universitas codepolitan
+      - jalur masuk codepolitan
+    responses:
+      - Pendaftaran dilakukan secara offline dengan datang langsung ke kampus Universitas Codepolitan.
+      - Jalur pendaftaran meliputi jalur beasiswa, jalur karyawan, jalur kerja sama, dan jalur reguler.
+      - Syarat pendaftaran umumnya meliputi lulusan SMA/SMK/sederajat, mengisi formulir, dan menyerahkan berkas administrasi.
+
+  - tag: ask_contact
+    patterns:
+      - nomor admin kampus
+      - kontak universitas codepolitan
+      - email kampus codepolitan
+      - website universitas codepolitan
+      - cara menghubungi kampus
+    responses:
+      - Kamu dapat menghubungi admin Universitas Codepolitan di nomor 082144573488.
+      - Email resmi Universitas Codepolitan adalah unicodepolitan@gmail.com.
+      - Website resmi Universitas Codepolitan adalah Universitas-Codepolitan.com.
+
+  - tag: ask_campus_status
+    patterns:
+      - kampus sekarang aktif
+      - sistem pembelajaran di codepolitan
+      - kuliah tatap muka atau online
+      - hari aktif kuliah
+      - kampus buka hari sabtu tidak
+    responses:
+      - Sistem pembelajaran di Universitas Codepolitan adalah tatap muka, dan online hanya jika dosen menentukan.
+      - Hari aktif perkuliahan adalah Senin, Rabu, dan Sabtu.
+      - Pada hari Sabtu kampus aktif dan banyak mahasiswa yang masuk kuliah.
+
+  - tag: ask_scholarship
+    patterns:
+      - ada beasiswa apa saja
+      - beasiswa universitas codepolitan
+      - syarat beasiswa codepolitan
+      - beasiswa tahfiz
+      - cara mendapatkan beasiswa
+    responses:
+      - Universitas Codepolitan menyediakan beasiswa Tahfiz Quran, beasiswa lulusan SMK Codepolitan, dan program kerja sama.
+      - Syarat beasiswa Tahfiz Quran minimal hafal 5 juz.
+      - Beasiswa berlaku selama masa perkuliahan sesuai ketentuan kampus.
+
+  - tag: ask_tuition_fee
+    patterns:
+      - biaya kuliah di universitas codepolitan
+      - uang kuliah per semester
+      - biaya masuk codepolitan
+      - ada uang gedung tidak
+      - biaya pendaftaran
+    responses:
+      - Biaya pendaftaran di Universitas Codepolitan gratis.
+      - Biaya kuliah sebesar Rp4.800.000 per semester dan dapat dicicil Rp700.000.
+      - Universitas Codepolitan tidak memungut uang gedung.
