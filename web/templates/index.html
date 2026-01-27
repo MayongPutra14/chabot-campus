@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot InTaz</title>
+</head>
+<body>
+    <!-- Chatbot Widget -->
+<div id="chatbot-container">
+    <div id="chatbot-button">💬</div>
+
+    <div id="chatbot-box" class="hidden">
+        <div id="chatbot-header">Admin Politan</div>
+        <div id="chatbot-messages">
+            <div class="bot-message">
+                Hai, aku Admin Politan 👋<br>
+                Ada yang bisa saya bantu?
+            </div>
+        </div>
+        <div id="chatbot-input-area">
+            <input type="text" id="user-input" placeholder="Ketik pertanyaan..." />
+            <button id="send-btn">➤</button>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<script src="{{ url_for('static', filename='javascript/script.js') }}" defer></script>
+
+</body>
+</html>
