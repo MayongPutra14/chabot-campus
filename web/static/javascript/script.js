@@ -1,52 +1,59 @@
-const chabotButton = document.getElementById("chatbot-button");
-const chatbotBox = document.getElementById("chatbot-box");
-const sendButton = document.getElementById("send-btn");
-const userInput = document.getElementById("user-input");
-const messages = document.getElementById("chatbot-messages");
+const chatBody = document.getElementById("chatBody");
+const userInput = document.getElementById("userInput");
+const sendBtn = document.getElementById("sendBtn");
 
-// TOGGLE CHATBOT
-chabotButton.onclick = () => {
-  chatbotBox.classList.toggle("hidden");
-};
+// HELPER: ADD MESSAGE BUBBLE
+function addMessage(text, sender) {
+  const messageDiv = document.createElement("div");
+  messageDiv.classList.add("message", sender);
 
-// SEND MESSAGE  EVENT LISTENER
-sendButton.onclick = sendMessage;
-userInput.addEventListener("keypress", function (event) {
-  if (event.key === "enter") sendMessage();
-});
+  const bubbleDiv = document.createElement("div");
+  bubbleDiv.classList.add("bubble");
+  bubbleDiv.textContent = text;
 
-// FUNCTION SEND MESSAGE TO CHATBOT
-function sendMessage() {
-  const text = userInput.value.trim();
-  if (!text) return;
+  messageDiv.appendChild(bubbleDiv);
+  chatBody.appendChild(messageDiv);
 
-  addMessage(text, "user-message");
+  // AUTO SCROLL
+  chatBody.scrollTop = chatBody.scrollHeight;
+}
+
+async function sendMessage() {
+  const message = userInput.value.trim();
+  if (!message) return;
+
+  // SHOW USER MESSAGE ON THE SCREEN
+  addMessage(message, "user");
   userInput.value = "";
 
-  fetch("/chat", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ message: text }),
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      addMessage(data.reply, "bot-message");
-    })
-    .catch(() => {
-      addMessage("Terjadi kesalahan, coba lagi", "bot-message");
+  try {
+    const response = await fetch("api/chat", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        message: message,
+      }),
     });
-}
 
-// FUNCTION ADD MESSAGE || GIVE ANSWER
-function addMessage(text, className) {
-  if (!messages) {
-    console.error("Elemen container pesan tidak ditemukan di HTML!");
-    return;
+    // GET RESPONSE FROM BOT
+    const dataResponse = await response.json();
+
+    // SHOW BOT MESSAGE ON THE SCREEN
+    addMessage(dataResponse.reply, "bot");
+  } catch (error) {
+    addMessage("Terjadi kesalaha. Silahkan coba lagi.", "bot");
+    console.error(error);
   }
-
-  const msg = document.createElement("div");
-  msg.className = className;
-  msg.innerText = text;
-  messages.appendChild(msg);
-  messages.scrollTop = messages.scrollHeight;
 }
+
+// EVENT: CLICK BUTTON
+sendBtn.addEventListener("click", sendMessage); 
+// EVENT: PRESS ENTER
+userInput.addEventListener("keydown", function (element) {
+  console.log(element.key);
+  if(element.key.toLowerCase() === "enter"){
+    sendMessage()
+  }
+})

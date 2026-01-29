@@ -1,32 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot InTaz</title>
-</head>
-<body>
-    <!-- Chatbot Widget -->
-<div id="chatbot-container">
-    <div id="chatbot-button">💬</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot-InTaz</title>
 
-    <div id="chatbot-box" class="hidden">
-        <div id="chatbot-header">Admin Politan</div>
-        <div id="chatbot-messages">
-            <div class="bot-message">
-                Hai, aku Admin Politan 👋<br>
-                Ada yang bisa saya bantu?
-            </div>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+  </head>
+  <body>
+    <div class="chat-container">
+      <!-- HEADER -->
+      <header class="chat-header">
+        <h2>Chatbot InTaz</h2>
+        <span>Politeknik Insan Tazakka</span>
+      </header>
+
+      <!-- CHAT AREA -->
+      <main class="chat-body" id="chatBody">
+        <div class="message bot">
+          <div class="bubble">
+            Halo saya AdminTaz. Ada yang bisa saya bantu?
+          </div>
         </div>
-        <div id="chatbot-input-area">
-            <input type="text" id="user-input" placeholder="Ketik pertanyaan..." />
-            <button id="send-btn">➤</button>
-        </div>
+      </main>
+
+      <!-- INPUT AREA -->
+      <footer class="chat-input">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Tulis pertanyaan anda disini..."
+          autocomplete="off"
+        />
+        <button id="sendBtn">Kirim</button>
+      </footer>
     </div>
-</div>
 
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-<script src="{{ url_for('static', filename='javascript/script.js') }}" defer></script>
-
-</body>
+    <!-- JAVASCRIPT -->
+     <script src="{{url_for('static', filename='javascript/script.js')}}"></script>
+  </body>
 </html>

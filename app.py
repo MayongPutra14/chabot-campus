@@ -6,17 +6,27 @@ app = Flask(__name__, template_folder="web/templates", static_folder="web/static
 # initializing Chabot Engine
 chatbot = ChatbotEngine("data/dataset_poltekintaz.yml")
 
-@app.route("/")
-def index():
+# API FULL SCREEN CHATBOT: METHOD GET
+@app.route("/chatbot")
+def chatbot_page():
     return render_template("index.html")
 
-@app.route("/chat", methods=["POST"])
-def chat():
-    data = request.get_json()
-    user_message = data.get("message")
+# API CHATING: METHOD POST
+@app.route("/api/chat", methods=["POST"])
+def chat_api():
+    data = request.get_json(silent=True)
+
+    if not data or "message" not in data:
+        return jsonify({
+            "reply": "Permintaan tidak valid."
+        }), 400
+
+    user_message = data["message"].strip()
 
     if not user_message:
-        return jsonify({"reply": "Pesan tidak boleh kosong"}), 400
+        return jsonify({
+            "reply": "Pesan kosong tidak dapat diproses"
+            }), 400
     
     bot_reply = chatbot.get_response(user_message)
     return jsonify({"reply": bot_reply})
