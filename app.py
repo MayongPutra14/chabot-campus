@@ -4,7 +4,7 @@ from chatbot.engine import ChatbotEngine
 app = Flask(__name__, template_folder="web/templates", static_folder="web/static")
 
 # initializing Chabot Engine
-chatbot = ChatbotEngine("data/dataset_poltekintaz.yml")
+chatbot = ChatbotEngine("data/knowledge")
 
 # API FULL SCREEN CHATBOT: METHOD GET
 @app.route("/chatbot")
