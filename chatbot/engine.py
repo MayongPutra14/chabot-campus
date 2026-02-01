@@ -11,6 +11,7 @@ class ChatbotEngine:
         self.dataset = self.load_knowledge_folder(dataset_path)
         self.context = ContextManager() # initialize Context Manager
         self.model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2") # load multy languages including indonesian language
+        self.last_response_index = {}
 
         # Optimation: calculate embedding pattern in the first time.
         for intent in self.dataset:
@@ -18,6 +19,7 @@ class ChatbotEngine:
                 self.model.encode(clean_text(p)) 
                 for p in intent['patterns'] 
                 ]
+
     
     def load_knowledge_folder(self, folder_path):
         intents = []
@@ -47,7 +49,7 @@ class ChatbotEngine:
                 intents.append({
                     "tag": topic,
                     "patterns": questions,
-                    "responses": [answer]
+                    "responses":answer
                 }) 
         if not intents:
             raise ValueError("Knowledge folder kosong atau tidak valid")
@@ -70,6 +72,25 @@ class ChatbotEngine:
                     best_score = score
                     best_intent = intent
         return best_intent, best_score
+
+    def pick_response(self, intent):
+        responses = intent["responses"]
+        tag = intent["tag"]
+
+        if len(responses) == 1:
+            return responses[0]
+
+        last_index = self.last_response_index.get(tag)
+
+        choices = list(range(len(responses)))
+        if last_index in choices:
+            choices.remove(last_index)
+
+        new_index = random.choice(choices)
+        self.last_response_index[tag] = new_index
+
+        return responses[new_index]
+
     
     # Get chatbot response
     def get_response(self, user_input):
@@ -79,16 +100,14 @@ class ChatbotEngine:
         threshold = 0.55
         if intent and score >= threshold:
             self.context.update(intent["tag"])
-            # return intent["knowledge"][0]["answer"]
-            # return random.choice(intent["knowledge"][0]["answer"])
-            return random.choice(intent["responses"])
+            return self.pick_response(intent)
 
         # If chatbot confused, check lats context
         last_intent_tag = self.context.getLastIntent()
         if(last_intent_tag):
             for intent_data in self.dataset:
                 if intent_data["tag"] == last_intent_tag:
-                    return "Terkait hal itu, " + random.choice(intent_data["responses"])
+                    return "Terkait hal itu, " + self.pick_response(intent_data)
                     
         return "Maaf, saya belum memahami pertanyaan itu. Bisa dijelaskan lebih detail?"
         
