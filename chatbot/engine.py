@@ -1,5 +1,6 @@
 import random
 import yaml
+import os
 from sentence_transformers import SentenceTransformer, util
 from chatbot.preprocess import clean_text
 from chatbot.context import ContextManager
@@ -7,23 +8,51 @@ from chatbot.context import ContextManager
 
 class ChatbotEngine:
     def __init__(self, dataset_path):
-        self.dataset = self.load_dataset(dataset_path) # load datase from data/
+        self.dataset = self.load_knowledge_folder(dataset_path)
         self.context = ContextManager() # initialize Context Manager
         self.model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2") # load multy languages including indonesian language
 
         # Optimation: calculate embedding pattern in the first time.
         for intent in self.dataset:
-            intent['pattern_embeddings'] = [self.model.encode(clean_text(p)) for p in intent['patterns'] ]
+            intent['pattern_embeddings'] = [
+                self.model.encode(clean_text(p)) 
+                for p in intent['patterns'] 
+                ]
+    
+    def load_knowledge_folder(self, folder_path):
+        intents = []
 
+        for filename in os.listdir(folder_path):
+            if not filename.endswith(".yml"):
+                continue
 
-    def load_dataset(self,path):
-        with open(path, "r", encoding="utf-8") as file:
-            data = yaml.safe_load(file)
-        # handler if dataset broke.
-        for intent in data["intents"]:
-            if "tag" not in intent or "patterns" not in intent or "responses" not in intent:
-                raise ValueError("Dataset tidak valid! Setiap intent harus punya tag, patterns, dan responses")
-        return data["intents"]
+            file_path = os.path.join(folder_path, filename)
+
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = yaml.safe_load(f)
+            
+            topic = data.get("topic")
+            knowledge_list = data.get("knowledge", [])
+
+            if not topic or not knowledge_list:
+                continue # SKIP BROKEN FILE
+            
+            for item in knowledge_list:
+                questions = item.get("questions", [])
+                answer = item.get("answer")
+
+                if not questions or not answer:
+                    continue
+
+                intents.append({
+                    "tag": topic,
+                    "patterns": questions,
+                    "responses": [answer]
+                }) 
+        if not intents:
+            raise ValueError("Knowledge folder kosong atau tidak valid")
+        
+        return intents
     
     def detect_intent(self, user_input):
         user_input = clean_text(user_input)
@@ -50,6 +79,8 @@ class ChatbotEngine:
         threshold = 0.55
         if intent and score >= threshold:
             self.context.update(intent["tag"])
+            # return intent["knowledge"][0]["answer"]
+            # return random.choice(intent["knowledge"][0]["answer"])
             return random.choice(intent["responses"])
 
         # If chatbot confused, check lats context
