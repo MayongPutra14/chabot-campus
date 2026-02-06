@@ -1,11 +1,224 @@
-topic: kontak_admin
+topic: kontak_kampus
 knowledge:
   - questions:
-      - nomor admin kampus
-      - kontak universitas codepolitan
-      - email kampus codepolitan
-      - website universitas codepolitan
-      - cara menghubungi kampus
-    answer: >
-      Hubungi admin Universitas Codepolitan di 082144573488, 
-      email: unicodepolitan@gmail.com, atau kunjungi Universitas-Codepolitan.com.
+      # =====================
+      # Umum / Sangat Pendek
+      # =====================
+      - kontak kampus
+      - nomornya berapa
+      - wa kampus
+      - admin kampus
+      - kontaknya?
+      - ada nomor?
+      - wa nya?
+      - admin?
+      - hubungi ke mana
+
+      # =====================
+      # Menengah
+      # =====================
+      - bagaimana cara menghubungi politeknik insan tazakka
+      - nomor whatsapp politeknik insan tazakka
+      - kontak resmi politeknik insan tazakka
+      - jika ingin bertanya hubungi ke mana
+      - saya mau tanya kampus hubungi siapa
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - bagaimana cara menghubungi pihak kampus politeknik insan tazakka secara resmi
+      - jika ingin bertanya lebih lanjut tentang pendaftaran harus menghubungi siapa
+      - media komunikasi resmi politeknik insan tazakka apa saja
+
+    answers:
+      short:
+        - Silakan hubungi admin kampus melalui WhatsApp 0851-7975-1842.
+        - Bisa hubungi admin kampus via WhatsApp.
+        - Kontak resmi kampus tersedia melalui WhatsApp.
+
+      medium:
+        - >
+          Untuk pertanyaan dan informasi, silakan menghubungi
+          admin Politeknik Insan Tazakka melalui WhatsApp
+          di nomor 0851-7975-1842.
+
+        - >
+          Kampus menyediakan layanan informasi melalui
+          WhatsApp admin untuk memudahkan calon mahasiswa.
+
+      long:
+        - >
+          Untuk mendapatkan informasi resmi terkait Politeknik
+          Insan Tazakka, Anda dapat menghubungi admin kampus
+          melalui WhatsApp di nomor 0851-7975-1842.
+          Layanan ini digunakan untuk berbagai pertanyaan
+          umum seputar kampus.
+
+  - questions:
+      # =====================
+      # Umum / Sangat Pendek
+      # =====================
+      - email kampus
+      - emailnya apa
+      - ada email?
+      - email resmi
+      - email admin
+      - mana emailnya
+      - nama emailnya
+
+      # =====================
+      # Menengah
+      # =====================
+      - apa alamat email politeknik insan tazakka
+      - email resmi politeknik insan tazakka
+      - jika ingin mengirim email ke kampus ke mana
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - bagaimana cara menghubungi politeknik insan tazakka melalui email
+      - alamat email resmi kampus politeknik insan tazakka apa
+
+    answers:
+      short:
+        - Email resmi kampus: poltek.insantazakka@gmail.com.
+        - Bisa hubungi kampus lewat email resmi.
+
+      medium:
+        - >
+          Email resmi Politeknik Insan Tazakka adalah
+          poltek.insantazakka@gmail.com.
+
+      long:
+        - >
+          Jika ingin menghubungi Politeknik Insan Tazakka
+          melalui email, silakan gunakan alamat email resmi
+          poltek.insantazakka@gmail.com untuk keperluan
+          informasi dan komunikasi formal.
+
+  - questions:
+      # =====================
+      # Umum / Sangat Pendek
+      # =====================
+      - website kampus
+      - web nya apa
+      - situs kampus
+      - website resmi
+      - link kampus
+      - nama webnya
+      - link webnya
+      - mana webnya
+      - webnya mana
+
+      # =====================
+      # Menengah
+      # =====================
+      - apa website resmi politeknik insan tazakka
+      - situs resmi politeknik insan tazakka
+      - informasi kampus bisa dilihat di mana
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - di mana saya bisa melihat informasi resmi politeknik insan tazakka secara online
+      - website resmi kampus politeknik insan tazakka apa
+
+    answers:
+      short:
+        - Website resmi: https://poltek-insantazakka.ac.id/
+        - Informasi kampus tersedia di website resmi.
+
+      medium:
+        - >
+          Website resmi Politeknik Insan Tazakka dapat diakses
+          melalui https://poltek-insantazakka.ac.id/.
+
+      long:
+        - >
+          Informasi resmi seputar Politeknik Insan Tazakka,
+          termasuk profil kampus dan pengumuman,
+          dapat diakses melalui website resmi
+          https://poltek-insantazakka.ac.id/.
+
+  - questions:
+      # =====================
+      # Umum / Sangat Pendek
+      # =====================
+      - alamat kampus
+      - kampusnya di mana
+      - lokasi kampus
+      - alamatnya?
+      - di mana kampusnya
+
+      # =====================
+      # Menengah
+      # =====================
+      - alamat politeknik insan tazakka
+      - lokasi politeknik insan tazakka di mana
+      - kampus politeknik insan tazakka ada di mana
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - di mana alamat lengkap politeknik insan tazakka
+      - apakah politeknik insan tazakka memiliki lebih dari satu lokasi kampus
+
+    answers:
+      short:
+        - Kampus berada di Karawang, Jawa Barat.
+        - Politeknik Insan Tazakka berlokasi di Karawang.
+
+      medium:
+        - >
+          Politeknik Insan Tazakka memiliki lokasi kampus
+          di wilayah Karawang, Jawa Barat.
+
+      long:
+        - >
+          Politeknik Insan Tazakka memiliki dua lokasi kampus.
+          Kampus 1 beralamat di Jl. Ir. Haji Juanda Jl. Sukaseuri
+          No.27, Sarimulya, Kec. Kota Baru, Karawang, Jawa Barat.
+          Kampus 2 beralamat di Jl. Raya Pangulah No.126,
+          Pangulah Utara, Kec. Kota Baru, Karawang, Jawa Barat.
+
+  - questions:
+      # =====================
+      # Umum / Sangat Pendek
+      # =====================
+      - jam pelayanan
+      - buka jam berapa
+      - jam admin
+      - jam kantor
+      - bukanya kapan
+
+      # =====================
+      # Menengah
+      # =====================
+      - jam operasional politeknik insan tazakka
+      - pelayanan kampus buka jam berapa
+      - jam kerja admin kampus
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - kapan jam layanan administrasi politeknik insan tazakka
+      - hari dan jam operasional kampus politeknik insan tazakka
+
+    answers:
+      short:
+        - Layanan buka Senin–Sabtu, pukul 08.00–16.00.
+        - Jam layanan kampus 08.00 sampai 16.00.
+
+      medium:
+        - >
+          Jam layanan administrasi Politeknik Insan Tazakka
+          buka pada hari Senin sampai Sabtu
+          pukul 08.00 hingga 16.00.
+
+      long:
+        - >
+          Layanan administrasi Politeknik Insan Tazakka
+          beroperasi pada hari Senin hingga Sabtu
+          dengan jam pelayanan pukul 08.00 sampai 16.00.
+          Untuk pertanyaan yang membutuhkan penjelasan lebih detail,
+          disarankan datang langsung ke Kampus 1.

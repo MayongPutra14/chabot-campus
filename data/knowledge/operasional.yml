@@ -1,11 +1,74 @@
 topic: jam_operasional
 knowledge:
   - questions:
+      # Formal
+      - Jam operasional kampus
+      - Jam buka kampus
+      - Jam kerja kampus
+      - Kampus buka pukul berapa
+      - Kampus tutup pukul berapa
+      - Jam layanan kampus
+      - Jam operasional Politeknik Insan Tazakka
+      - Jam kerja Politeknik Insan Tazakka
+      - Kampus beroperasi mulai jam berapa
+      - Kampus beroperasi sampai jam berapa
+
+      # Semi formal (umum)
+      - Kampus buka jam berapa ya
+      - Kampus tutup jam berapa ya
+      - Hari ini kampus buka tidak
+      - Sekarang kampus masih buka
+      - Kampus masih melayani tidak
+      - Jam layanan hari ini
+      - Jam kantor kampus
+      - Jam pelayanan kampus
+      - Jam administrasi kampus
+      - Jam pelayanan akademik
+
+      # Santai / user behavior pendek
       - kampus buka jam berapa
-      - jam operasional kampus
-      - jam kerja universitas codepolitan
-      - pelayanan kampus buka jam berapa
-      - kampus buka setiap hari tidak
-    answer: >
-      Kampus Universitas Codepolitan buka setiap hari pukul 08.00 sampai 16.00. 
-      Jam operasional ini berlaku untuk seluruh layanan administrasi kampus.
+      - kampus tutup jam berapa
+      - buka jam berapa
+      - tutup jam berapa
+      - jam berapa buka
+      - jam berapa tutup
+      - masih buka?
+      - masih buka gak
+      - masih buka nggak
+      - kampus buka?
+      - kampus tutup?
+      - bisa ke kampus jam segini?
+      - bisa datang sekarang?
+      - admin masih ada?
+      - kampus masih ada orang?
+      - pelayanan masih jalan?
+      - bisa urus berkas sekarang?
+      - bisa ke kampus sore?
+      - buka sampai sore?
+      - buka sampai jam berapa
+      - tutup jam berapa kampusnya
+
+      # Hari & kondisi
+      - kampus buka hari apa saja
+      - buka hari apa aja
+      - kampus buka sabtu?
+      - hari sabtu buka?
+      - minggu buka gak?
+      - kampus libur minggu?
+      - kampus buka senin sampai apa
+      - buka tiap hari?
+      - kampus buka setiap hari?
+      - kampus buka senin sampai sabtu?
+
+    answers:
+      short:
+        - Kampus buka pukul 08.00–16.00 WIB, Senin sampai Sabtu.
+        - Jam operasional kampus dari jam 8 pagi sampai jam 4 sore.
+        - Kampus beroperasi Senin–Sabtu pukul 08.00–16.00 WIB.
+
+      medium:
+        - Politeknik Insan Tazakka buka setiap hari Senin sampai Sabtu, mulai pukul 08.00 hingga 16.00 WIB. Layanan administrasi mengikuti jam tersebut.
+        - Jam operasional kampus adalah pukul 08.00–16.00 WIB dari hari Senin sampai Sabtu. Kampus tutup pada hari Minggu dan libur nasional.
+
+      long:
+        - Politeknik Insan Tazakka memiliki jam operasional kampus dan layanan administrasi yang sama, yaitu pukul 08.00 hingga 16.00 WIB. Kampus buka dari hari Senin sampai Sabtu, dan tutup pada hari Minggu serta hari libur nasional sesuai ketentuan pemerintah. Untuk memastikan layanan tersedia, disarankan datang pada jam operasional tersebut.

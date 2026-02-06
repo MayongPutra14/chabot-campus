@@ -1,11 +1,143 @@
-topic: program_studi
+topic: fakultas_kampus
 knowledge:
   - questions:
-      - ada prodi apa saja
-      - jurusan apa saja di universitas codepolitan
-      - program studi codepolitan
-      - d4 jurusan apa
-      - teknik apa saja di codepolitan
-    answer: >
-      Universitas Codepolitan memiliki Program Studi D4 Teknik Rekayasa Industri, 
-      Teknik Rekayasa Komputer, dan Teknik Rekayasa Logistik.
+      # =====================
+      # Umum / Pendek
+      # =====================
+      - kampus ini punya fakultas apa saja
+      - politeknik insan tazakka ada fakultas apa
+      - fakultas di politeknik insan tazakka apa aja
+      - kampusnya ada fakultas atau tidak
+      - ada fakultas apa di kampus ini
+
+      # =====================
+      # Menengah
+      # =====================
+      - apakah politeknik insan tazakka memiliki fakultas
+      - politeknik insan tazakka pakai sistem fakultas atau jurusan
+      - struktur fakultas di politeknik insan tazakka seperti apa
+      - fakultas dan jurusan di politeknik insan tazakka apa saja
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - apakah politeknik insan tazakka menggunakan sistem fakultas seperti universitas
+      - jika tidak ada fakultas bagaimana struktur akademik di politeknik insan tazakka
+      - kenapa politeknik insan tazakka tidak memiliki fakultas
+      - apakah tidak adanya fakultas mempengaruhi kualitas pendidikan
+
+    answers:
+      short:
+        - Politeknik Insan Tazakka tidak menggunakan sistem fakultas.
+        - Kampus ini langsung menggunakan program studi.
+        - Tidak ada fakultas, hanya program studi.
+
+      medium:
+        - >
+          Politeknik Insan Tazakka tidak menggunakan pembagian fakultas
+          seperti universitas, melainkan langsung menggunakan
+          struktur program studi atau jurusan.
+
+        - >
+          Sistem ini umum digunakan di perguruan tinggi vokasi
+          dan tidak mempengaruhi kualitas pendidikan.
+
+      long:
+        - >
+          Politeknik Insan Tazakka merupakan perguruan tinggi vokasi
+          yang tidak menggunakan sistem fakultas seperti universitas.
+          Struktur akademiknya langsung berbasis program studi
+          atau jurusan agar lebih fokus pada keahlian terapan
+          dan kebutuhan dunia industri.
+
+        - >
+          Tidak digunakannya sistem fakultas di Politeknik Insan Tazakka
+          merupakan bagian dari karakter pendidikan vokasi.
+          Dengan struktur ini, pembelajaran menjadi lebih terarah,
+          praktis, dan sesuai dengan kompetensi yang dibutuhkan
+          oleh dunia kerja.
+
+  - questions:
+      # =====================
+      # Umum / Pendek
+      # =====================
+      - jurusan apa saja yang ada di kampus ini
+      - politeknik insan tazakka ada jurusan apa
+      - kampus ini punya prodi apa aja
+      - program studi di kampus ini apa saja
+
+      # =====================
+      # Menengah
+      # =====================
+      - apa saja program studi yang tersedia di politeknik insan tazakka
+      - jurusan yang ada di politeknik insan tazakka apa saja
+      - daftar program studi di politeknik insan tazakka
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - program studi apa saja yang dimiliki politeknik insan tazakka secara resmi
+      - jurusan apa yang bisa dipilih oleh calon mahasiswa baru
+      - bagaimana pilihan program studi di politeknik insan tazakka
+
+    answers:
+      short:
+        - Tersedia tiga program studi teknik rekayasa.
+        - Ada Teknik Rekayasa Komputer, Manufaktur, dan Logistik.
+        - Program studi fokus pada bidang teknik.
+
+      medium:
+        - >
+          Politeknik Insan Tazakka memiliki tiga program studi,
+          yaitu Teknik Rekayasa Komputer, Teknik Rekayasa Manufaktur,
+          dan Teknik Rekayasa Logistik.
+
+      long:
+        - >
+          Program studi yang tersedia di Politeknik Insan Tazakka
+          meliputi Teknik Rekayasa Komputer, Teknik Rekayasa Manufaktur,
+          dan Teknik Rekayasa Logistik. Ketiga program studi ini
+          dirancang untuk membekali mahasiswa dengan kompetensi
+          teknis dan keterampilan terapan sesuai kebutuhan industri.
+
+  - questions:
+      # =====================
+      # Umum / Pendek
+      # =====================
+      - kalau daftar kuliah pilih fakultas atau jurusan
+      - daftar di politeknik insan tazakka pilih apa
+      - masuk kampus ini pilih fakultas apa
+      - pendaftaran pilih fakultas atau prodi
+
+      # =====================
+      # Menengah
+      # =====================
+      - saat pendaftaran mahasiswa baru memilih fakultas atau program studi
+      - bagaimana cara memilih jurusan saat daftar kuliah
+      - sistem pemilihan jurusan di politeknik insan tazakka
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - bagaimana mekanisme pemilihan program studi bagi calon mahasiswa baru
+      - apakah calon mahasiswa harus memilih fakultas saat pendaftaran
+      - alur pendaftaran akademik di politeknik insan tazakka seperti apa
+
+    answers:
+      short:
+        - Langsung memilih program studi.
+        - Pendaftaran tidak menggunakan fakultas.
+        - Calon mahasiswa memilih jurusan.
+
+      medium:
+        - >
+          Pada saat pendaftaran mahasiswa baru,
+          calon mahasiswa langsung memilih program studi
+          atau jurusan yang diminati.
+
+      long:
+        - >
+          Dalam proses pendaftaran mahasiswa baru di
+          Politeknik Insan Tazakka, calon mahasiswa tidak
+          memilih fakultas, melainkan langsung memilih
+          program studi sesuai minat dan latar belakang pendidikan.

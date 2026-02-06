@@ -1,12 +1,95 @@
 topic: lokasi_kampus
 knowledge:
   - questions:
-      - kampus di mana
-      - alamat universitas codepolitan
-      - lokasi kampus codepolitan
-      - universitas codepolitan di mana
-      - kampus dekat apa
-    answer: >
-      Universitas Codepolitan beralamat di Karawang, Jl. Jenderal Sudirman, 
-      Kecamatan Kota Lama, Jawa Barat. Kampus berada di dekat Kampus BSI 
-      dan di depan Kantor Dishub.
+      # ===== Pendek =====
+      - kampusnya di mana
+      - lokasi kampus
+      - alamat kampus
+      - kampus di mana ya
+      - poltek insan tazakka di mana
+      - kampus insan tazakka
+      - kampusnya di karawang ya
+      - alamatnya di mana
+      - lokasi kuliah di mana
+      - kuliahnya di mana
+      - datang ke kampus yang mana
+      - ke kampus 1 atau 2
+      - kampus utama di mana
+      - kampusnya dekat apa
+      - patokan kampus apa
+      - di pinggir jalan besar?
+      - bisa didatangi langsung?
+      - kampusnya gampang dicari?
+
+      # ===== Menengah =====
+      - di mana lokasi politeknik insan tazakka
+      - alamat lengkap kampus politeknik insan tazakka
+      - apakah politeknik insan tazakka punya lebih dari satu kampus
+      - perkuliahan dilaksanakan di kampus yang mana
+      - kampus 1 dan kampus 2 bedanya apa
+      - kalau mau daftar datang ke kampus mana
+      - lokasi kampus politeknik insan tazakka di karawang
+      - kampusnya dekat gedung apa
+      - apakah kampus mudah diakses
+      - apakah kampus dekat jalan utama
+
+      # ===== Panjang / penjelasan =====
+      - di mana lokasi kampus politeknik insan tazakka dan bagaimana aksesnya
+      - apakah perkuliahan dilakukan di kampus 1 atau kampus 2
+      - jika saya ingin datang langsung ke kampus politeknik insan tazakka harus ke mana
+      - mohon jelaskan lokasi kampus politeknik insan tazakka beserta patokannya
+      - apakah politeknik insan tazakka memiliki lebih dari satu lokasi kampus dan fungsinya
+
+    answers:
+      short:
+        - "Lokasi utama Politeknik Insan Tazakka ada di Karawang."
+        - "Untuk saat ini, kegiatan kuliah dan praktik ada di Kampus 1."
+        - "Datang langsung ke Kampus 1 ya."
+        - "Kampusnya mudah dijangkau dan ada di lokasi strategis."
+        - "Kampus 1 yang aktif digunakan sekarang."
+
+      medium:
+        - >
+          Politeknik Insan Tazakka memiliki dua lokasi kampus.
+          Saat ini kegiatan perkuliahan dan praktik dilaksanakan
+          di Kampus 1 yang berada di Karawang.
+
+        - >
+          Lokasi Kampus 1 Politeknik Insan Tazakka berada di
+          Jl. Ir. Haji Juanda Jl. Sukaseuri No.27, Karawang.
+          Patokannya berada di depan Kantor Dishub dan
+          bersebelahan dengan Gedung Kampus BSI.
+
+        - >
+          Kampus 2 Politeknik Insan Tazakka berada di
+          Jl. Raya Pangulah dan saat ini masih dalam
+          tahap pembangunan.
+
+        - >
+          Jika ingin datang langsung untuk keperluan kuliah,
+          pendaftaran, atau informasi, silakan menuju Kampus 1.
+
+      long:
+        - >
+          Politeknik Insan Tazakka memiliki dua lokasi kampus.
+          Namun untuk saat ini, seluruh kegiatan perkuliahan
+          dan praktik mahasiswa dilaksanakan di Kampus 1.
+          Kampus 1 beralamat di Jl. Ir. Haji Juanda Jl. Sukaseuri No.27,
+          Karawang, dengan patokan tepat di depan Kantor Dishub
+          dan bersebelahan dengan Gedung Kampus BSI.
+          Lokasi ini mudah diakses dan berada di area strategis.
+
+        - >
+          Selain Kampus 1, Politeknik Insan Tazakka juga memiliki
+          Kampus 2 yang berlokasi di Jl. Raya Pangulah, Karawang.
+          Lokasinya berada di jalan utama Pantura.
+          Jika dari arah Jakarta, kampus ini dekat dengan SPBU Pertamina,
+          sedangkan dari arah Cirebon dekat dengan Kantor Pool Bus Sahabat.
+          Saat ini Kampus 2 masih dalam proses pembangunan,
+          sehingga aktivitas akademik belum dilaksanakan di sana.
+
+        - >
+          Bagi calon mahasiswa atau orang tua yang ingin datang
+          langsung ke kampus untuk mendapatkan informasi yang lebih jelas,
+          sangat disarankan untuk datang ke Kampus 1 karena
+          seluruh layanan akademik dan perkuliahan masih terpusat di lokasi tersebut.

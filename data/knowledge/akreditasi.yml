@@ -1,30 +1,59 @@
 topic: status_akreditasi
 knowledge:
   - questions:
-      # Variasi Formal
-      - akreditasi universitas codepolitan
-      - kampus sudah terakreditasi belum
-      - akreditasi prodi teknik
-      - apa status akreditasi kampus ini
-      - apakah sudah terdaftar di ban-pt
-      # Variasi Bahasa Santai/Natural
-      - kampusnya udah akreditasi belum kak
-      - univ codepolitan akreditasinya apa ya
-      - jurusannya sudah ada akreditasinya belum
-      - mau tanya status akreditasi kampusnya dong
-      - cek akreditasi prodi teknik rekayasa
-      - apakah ijazahnya nanti diakui pemerintah
-      - legalitas kampus codepolitan gimana
-      - kampus ini resmi terdaftar kan ya
-    answer:
-      - >
-        Tenang saja, Universitas Codepolitan beserta seluruh program studinya sudah resmi 
-        terakreditasi oleh BAN-PT kok. Jadi legalitasnya sudah terjamin. Kalau kamu butuh 
-        detail nilai akreditasi tiap prodi, langsung tanya ke bagian administrasi ya!
-      - >
-        Untuk status akreditasi, Universitas Codepolitan sudah terakreditasi oleh BAN-PT, 
-        begitu juga dengan semua jurusan Teknik Rekayasa yang ada di sini. Untuk info 
-        lebih lengkapnya, kamu bisa mampir ke kantor admin di jam operasional.
-      - >
-        Semua prodi di sini sudah terakreditasi BAN-PT, kak. Jadi nggak perlu khawatir soal 
-        kualitas dan pengakuan ijazahnya nanti. Mau tanya detail akreditasi buat prodi apa?
+      # Umum / pendek
+      - kampus ini sudah akreditasi belum
+      - politeknik insan tazakka akreditasi
+      - kampusnya udah resmi belum
+      - ijazahnya diakui ga
+
+      # Menengah
+      - bagaimana status akreditasi politeknik insan tazakka
+      - apakah semua jurusan sudah terakreditasi
+      - politeknik insan tazakka terdaftar di ban-pt?
+      - apakah kampus ini aman untuk kuliah
+
+      # Panjang / kritis
+      - apakah ijazah politeknik insan tazakka bisa digunakan untuk kerja
+      - apakah lulusan politeknik insan tazakka diakui pemerintah
+      - apakah politeknik insan tazakka terdaftar di pddikti dan ban-pt
+      - apakah semua prodi teknik rekayasa sudah terakreditasi ban-pt
+
+    answers:
+      short:
+        - "Politeknik Insan Tazakka sudah resmi terakreditasi BAN-PT."
+        - "Sudah ya, kampus dan semua prodinya terakreditasi."
+        - "Aman, kampus ini resmi dan diakui pemerintah."
+
+      medium:
+        - >
+          Politeknik Insan Tazakka sudah terakreditasi oleh BAN-PT,
+          dan seluruh program studi yang tersedia juga telah memperoleh
+          status akreditasi resmi.
+
+        - >
+          Semua jurusan di Politeknik Insan Tazakka seperti
+          Teknik Rekayasa Komputer, Teknik Rekayasa Manufaktur,
+          dan Teknik Rekayasa Logistik sudah terakreditasi.
+
+        - >
+          Kampus ini terdaftar secara resmi dan memiliki akreditasi BAN-PT,
+          sehingga legalitas dan pengakuannya sudah jelas.
+
+      long:
+        - >
+          Politeknik Insan Tazakka merupakan perguruan tinggi yang
+          telah terakreditasi oleh BAN-PT. Selain itu, seluruh program
+          studi yang ada, yaitu Teknik Rekayasa Komputer,
+          Teknik Rekayasa Manufaktur, dan Teknik Rekayasa Logistik,
+          juga telah mendapatkan status akreditasi resmi.
+          Dengan demikian, ijazah lulusan diakui pemerintah dan
+          dapat digunakan untuk keperluan kerja maupun melanjutkan studi.
+
+        - >
+          Dari sisi legalitas dan kualitas pendidikan, Politeknik Insan Tazakka
+          telah memenuhi standar nasional pendidikan tinggi.
+          Kampus ini terdaftar resmi dan seluruh prodinya telah
+          melalui proses akreditasi BAN-PT, sehingga aman bagi
+          mahasiswa maupun orang tua yang ingin memastikan
+          pengakuan ijazah di masa depan.

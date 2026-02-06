@@ -25,7 +25,7 @@ class ChatbotEngine:
         intents = []
 
         for filename in os.listdir(folder_path):
-            if not filename.endswith(".yml"):
+            if not filename.lower().endswith(".yml"):
                 continue
 
             file_path = os.path.join(folder_path, filename)
@@ -41,18 +41,22 @@ class ChatbotEngine:
             
             for item in knowledge_list:
                 questions = item.get("questions", [])
-                answer = item.get("answer")
+                answers = item.get("answers")
 
-                if not questions or not answer:
+                if not questions or not answers:
                     continue
+                if not all( k in answers and isinstance(answers[k], list) and answers[k]
+                            for k in ["short", "medium", "long"]):
+                    continue
+
 
                 intents.append({
                     "tag": topic,
                     "patterns": questions,
-                    "responses":answer
+                    "responses":answers
                 }) 
         if not intents:
-            raise ValueError("Knowledge folder kosong atau tidak valid")
+            raise ValueError("Knowledge folder kosong atau format dataset tidak valid")
         
         return intents
     
@@ -73,41 +77,36 @@ class ChatbotEngine:
                     best_intent = intent
         return best_intent, best_score
 
-    def pick_response(self, intent):
+    def pick_response(self, intent, user_input):
         responses = intent["responses"]
-        tag = intent["tag"]
+        word_count = len(user_input.split())
 
-        if len(responses) == 1:
-            return responses[0]
+        # Adaptive length selection
+        if word_count <= 4:
+            pool = responses["short"]
+        elif word_count <= 8:
+            pool = responses["medium"]
+        else:
+            pool = responses["long"]
+        
+        return random.choice(pool)
 
-        last_index = self.last_response_index.get(tag)
-
-        choices = list(range(len(responses)))
-        if last_index in choices:
-            choices.remove(last_index)
-
-        new_index = random.choice(choices)
-        self.last_response_index[tag] = new_index
-
-        return responses[new_index]
-
-    
     # Get chatbot response
     def get_response(self, user_input):
         intent, score = self.detect_intent(user_input)
 
         # Threshold Believe
-        threshold = 0.55
+        threshold = 0.45
         if intent and score >= threshold:
             self.context.update(intent["tag"])
-            return self.pick_response(intent)
+            return self.pick_response(intent, user_input)
 
         # If chatbot confused, check lats context
         last_intent_tag = self.context.getLastIntent()
         if(last_intent_tag):
             for intent_data in self.dataset:
                 if intent_data["tag"] == last_intent_tag:
-                    return "Terkait hal itu, " + self.pick_response(intent_data)
+                    return "Terkait hal itu, " + self.pick_response(intent_data, user_input)
                     
         return "Maaf, saya belum memahami pertanyaan itu. Bisa dijelaskan lebih detail?"
         

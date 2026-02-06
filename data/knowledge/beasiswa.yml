@@ -1,11 +1,192 @@
-topic: info_beasiswa
+topic: beasiswa_kampus
 knowledge:
   - questions:
-      - ada beasiswa apa saja
-      - beasiswa universitas codepolitan
-      - syarat beasiswa codepolitan
-      - beasiswa tahfiz
-      - cara mendapatkan beasiswa
-    answer: >
-      Tersedia beasiswa Tahfiz Quran (min. 5 juz), beasiswa lulusan SMK Codepolitan, 
-      dan program kerja sama. Beasiswa berlaku selama masa perkuliahan sesuai ketentuan.
+      # =====================
+      # Umum / Pendek
+      # =====================
+      - kampus ini ada beasiswa ga
+      - ada beasiswa di politeknik insan tazakka
+      - politeknik insan tazakka ada beasiswa apa
+      - beasiswa di kampus ini apa saja
+      - bisa dapat beasiswa ga
+      - kampusnya nyediain beasiswa?
+
+      # =====================
+      # Menengah
+      # =====================
+      - apa saja jenis beasiswa di politeknik insan tazakka
+      - beasiswa apa saja yang tersedia di kampus ini
+      - apakah politeknik insan tazakka menyediakan beasiswa untuk mahasiswa baru
+      - beasiswa apa yang bisa diikuti oleh calon mahasiswa
+      - program beasiswa yang ada di politeknik insan tazakka apa saja
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - apakah politeknik insan tazakka memiliki program beasiswa resmi untuk mahasiswa baru
+      - apakah semua calon mahasiswa bisa mengajukan beasiswa di politeknik insan tazakka
+      - beasiswa apa saja yang tersedia dan bagaimana gambaran umumnya
+      - apakah kampus ini menyediakan beasiswa akademik dan non akademik
+
+    answers:
+      short:
+        - Ya, Politeknik Insan Tazakka menyediakan beberapa program beasiswa.
+        - Ada, kampus menyediakan berbagai jenis beasiswa.
+        - Tersedia beberapa pilihan beasiswa untuk calon mahasiswa.
+
+      medium:
+        - >
+          Politeknik Insan Tazakka menyediakan beberapa program beasiswa
+          bagi calon mahasiswa, seperti beasiswa alumni, tahfiz,
+          mitra industri, KIP, Karawang Cerdas, dan beasiswa UKT.
+
+        - >
+          Kampus ini memiliki beberapa jenis beasiswa yang dapat
+          diikuti oleh calon mahasiswa sesuai dengan syarat dan
+          ketentuan masing-masing program.
+
+      long:
+        - >
+          Politeknik Insan Tazakka menyediakan berbagai program beasiswa
+          sebagai bentuk dukungan kepada calon mahasiswa.
+          Beasiswa yang tersedia antara lain Beasiswa Alumni SMK
+          Insan Tazakka, Beasiswa Tahfiz Qur’an, Beasiswa Mitra Industri,
+          Beasiswa KIP, Beasiswa Karawang Cerdas, serta Beasiswa UKT.
+          Setiap beasiswa memiliki mekanisme dan persyaratan yang berbeda.
+
+        - >
+          Program beasiswa di Politeknik Insan Tazakka dirancang untuk
+          membantu calon mahasiswa dari berbagai latar belakang,
+          baik dari sisi prestasi, hafalan Al-Qur’an, kerja sama industri,
+          maupun bantuan pendidikan dari pemerintah dan daerah.
+          Informasi lengkap biasanya disampaikan melalui pengumuman resmi kampus.
+
+  - questions:
+      # =====================
+      # Umum / Pendek
+      # =====================
+      - beasiswa ini buat siapa
+      - lulusan sma bisa dapat beasiswa
+      - lulusan smk bisa daftar beasiswa
+      - beasiswanya buat umum atau khusus
+      - masyarakat umum bisa daftar beasiswa?
+
+      # =====================
+      # Menengah
+      # =====================
+      - siapa saja yang berhak mendapatkan beasiswa di kampus ini
+      - apakah lulusan sma dan smk semua jurusan bisa mendaftar beasiswa
+      - apakah beasiswa hanya untuk alumni insan tazakka
+      - target penerima beasiswa di politeknik insan tazakka siapa saja
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - apakah masyarakat umum selain alumni insan tazakka bisa mendapatkan beasiswa
+      - apakah semua calon mahasiswa memiliki kesempatan yang sama untuk beasiswa
+      - bagaimana ketentuan umum penerima beasiswa di politeknik insan tazakka
+
+    answers:
+      short:
+        - Beasiswa terbuka untuk lulusan SMA/SMK dan masyarakat umum.
+        - Lulusan SMA dan SMK bisa mendaftar beasiswa.
+        - Beasiswa tidak hanya untuk alumni.
+
+      medium:
+        - >
+          Beasiswa di Politeknik Insan Tazakka terbuka bagi lulusan
+          SMA dan SMK dari semua jurusan, serta masyarakat umum
+          yang ingin melanjutkan kuliah.
+
+        - >
+          Tidak semua beasiswa khusus alumni, beberapa program
+          juga terbuka untuk calon mahasiswa umum.
+
+      long:
+        - >
+          Program beasiswa di Politeknik Insan Tazakka dapat diikuti
+          oleh lulusan SMA maupun SMK dari semua jurusan, termasuk
+          masyarakat umum yang ingin melanjutkan pendidikan.
+          Namun, setiap jenis beasiswa memiliki persyaratan khusus
+          yang harus dipenuhi oleh pendaftar.
+
+  - questions:
+      # =====================
+      # Umum / Pendek
+      # =====================
+      - beasiswa tahfiz syaratnya apa
+      - hafal quran dapat beasiswa
+      - hafal 5 juz dapat potongan ukt
+      - beasiswa tahfidz minimal berapa juz
+
+      # =====================
+      # Menengah
+      # =====================
+      - apa saja syarat beasiswa tahfiz qur'an
+      - apakah beasiswa tahfiz memberikan potongan biaya kuliah
+      - beasiswa tahfiz di politeknik insan tazakka seperti apa
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - bagaimana ketentuan dan bentuk beasiswa tahfiz qur'an di politeknik insan tazakka
+      - apakah mahasiswa dengan hafalan al-qur'an bisa mendapatkan keringanan biaya kuliah
+
+    answers:
+      short:
+        - Minimal hafal 5 juz Al-Qur’an.
+        - Beasiswa Tahfiz berupa potongan UKT/SPP.
+        - Dikhususkan bagi calon mahasiswa penghafal Al-Qur’an.
+
+      medium:
+        - >
+          Beasiswa Tahfiz Qur’an diberikan kepada calon mahasiswa
+          yang memiliki hafalan minimal 5 juz Al-Qur’an, dengan
+          bentuk bantuan berupa potongan UKT atau SPP.
+
+      long:
+        - >
+          Beasiswa Tahfiz Qur’an merupakan program beasiswa bagi
+          calon mahasiswa yang memiliki hafalan Al-Qur’an minimal
+          5 juz. Bantuan yang diberikan berupa potongan biaya UKT
+          atau SPP sesuai ketentuan kampus dan hasil seleksi.
+
+  - questions:
+      # =====================
+      # Umum / Pendek
+      # =====================
+      - info beasiswa di mana
+      - pengumuman beasiswa lewat apa
+      - beasiswa diumumin di mana
+      - info beasiswa kampus dari mana
+
+      # =====================
+      # Menengah
+      # =====================
+      - biasanya pengumuman beasiswa disampaikan lewat apa
+      - di mana saya bisa mendapatkan informasi resmi beasiswa
+      - kampus mengumumkan beasiswa melalui media apa
+
+      # =====================
+      # Panjang / Kritis
+      # =====================
+      - bagaimana cara mendapatkan informasi resmi terkait beasiswa di politeknik insan tazakka
+      - media apa yang digunakan kampus untuk menyampaikan informasi beasiswa
+
+    answers:
+      short:
+        - Informasi beasiswa disampaikan melalui grup WhatsApp mahasiswa.
+        - Pengumuman biasanya lewat grup WhatsApp resmi.
+        - Info beasiswa diumumkan oleh pihak kampus.
+
+      medium:
+        - >
+          Informasi dan pengumuman beasiswa di Politeknik Insan Tazakka
+          biasanya disampaikan melalui grup WhatsApp resmi mahasiswa.
+
+      long:
+        - >
+          Untuk mendapatkan informasi resmi terkait beasiswa,
+          calon mahasiswa dan mahasiswa disarankan untuk
+          mengikuti pengumuman yang disampaikan oleh pihak kampus,
+          terutama melalui grup WhatsApp resmi mahasiswa.
