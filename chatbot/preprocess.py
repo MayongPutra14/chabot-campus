@@ -1,5 +1,5 @@
 import re  # importing regular expression
-from typing import List
+# from typing import List
 
 def clean_text(text: str) -> str:
     # change input user to lowercase

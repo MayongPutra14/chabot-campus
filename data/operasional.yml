@@ -1,0 +1,139 @@
+topic: operasional_kampus
+knowledge:
+  - questions:
+      - "Kapan jam operasional kampus?"
+      - "Jam buka kampus dari jam berapa sampai jam berapa?"
+      - "Kantor kampus buka jam berapa?"
+      - "Berapa jam kampus beroperasi?"
+      # Typo Kecil
+      - "Jam operasional kampus dr jam brp?"
+      - "Kantor buka jam brp smp jam brp?"
+      - "Kampus bka jam brapa?"
+      - "Operasional kampus wktunya gmn?"
+      # Typo Besar
+      - "kampus buka jam"
+      - "jam kerja kpus"
+      - "wktu buka kntor"
+      - "buka tutup kampus"
+    answers:
+      short:
+        - "Operasional kampus dari jam 08.00 hingga 16.00 WIB, Senin sampai Sabtu."
+      medium:
+        - "Seluruh operasional dan layanan kampus (kantor administrasi, perpustakaan, laboratorium, dll.) berjalan pada **pukul 08.00 hingga 16.00 Waktu Indonesia Barat (WIB)**, dari hari Senin hingga Sabtu."
+      long:
+        - "Politeknik Insan Tazakka menjalankan seluruh aktivitas operasionalnya pada **hari Senin hingga Sabtu**. Jam pelayanan untuk semua unit, mulai dari administrasi akademik, kemahasiswaan, keuangan, perpustakaan, hingga laboratorium, adalah seragam, yaitu **setiap hari dari pukul 08.00 pagi hingga pukul 16.00 sore Waktu Indonesia Barat (WIB)**. Hari Minggu merupakan hari libur operasional kampus."
+
+  - questions:
+      - "Kapan jadwal kuliah mahasiswa?"
+      - "Hari apa saja ada kuliah?"
+      - "Kuliah diadakan hari apa?"
+      - "Apakah setiap hari ada kelas?"
+      # Typo Kecil
+      - "Jdwal kuliah mhs hari apa aja?"
+      - "Kuliah di adakan hari apa?"
+      - "Apa tiap hari ada kls?"
+      - "Hari kuliah brp hari?"
+      # Typo Besar
+      - "jdwl kuliah"
+      - "hari kuliah apa"
+      - "kapan ada kelas"
+      - "kuliah tiap hari ga"
+    answers:
+      short:
+        - "Kuliah diadakan hari Senin, Rabu, dan Sabtu. Sabtu (08.00-17.00), Senin & Rabu (16.30-21.00)."
+      medium:
+        - "Jadwal kuliah untuk mahasiswa Politeknik Insan Tazakka diadakan pada tiga hari: **Senin, Rabu, dan Sabtu**. Untuk **hari Sabtu**, perkuliahan berlangsung dari **pukul 08.00 pagi hingga 17.00 sore**. Sementara pada **hari Senin dan Rabu**, perkuliahan dimulai lebih sore, yaitu dari **pukul 16.30 (setengah lima sore) hingga 21.00 (sembilan malam)**."
+      long:
+        - "Politeknik Insan Tazakka menerapkan jadwal kuliah yang terbagi berdasarkan hari. **Hari aktif perkuliahan** adalah **Senin, Rabu, dan Sabtu**. **Hari Sabtu** difungsikan untuk perkuliahan full-day, dimulai dari **pukul 08.00 pagi hingga pukul 17.00 sore**. Sedangkan pada **hari Senin dan Rabu**, perkuliahan dirancang untuk waktu sore hingga malam, dimulai pada **pukul 16.30 (setengah lima sore)** dan berakhir pada **pukul 21.00 (sembilan malam)**. Jadwal ini memungkinkan mahasiswa untuk mengatur aktivitas lain di luar waktu kuliah."
+
+  - questions:
+      - "Apakah ada layanan keamanan 24 jam?"
+      - "Bagaimana jika ada keadaan darurat di kampus?"
+      - "Ada pos keamanan ga di kampus?"
+      - "Siapa yang bisa dihubungi darurat?"
+      # Typo Kecil
+      - "Ada layanan keamanan 24 jam ga?"
+      - "Klo ada darurat di kampus, hubungi siapa?"
+      - "Pos keamanan ada ga?"
+      - "Kontak darurat kampus apa?"
+      # Typo Besar
+      - "keamanan 24 jam ada ga"
+      - "klo darurat gmn"
+      - "pos satpam kpus"
+      - "tlpn darurat kampus"
+    answers:
+      short:
+        - "Ya, ada Pos Keamanan (Pos PAM) yang berjaga 24 jam. Mahasiswa terdaftar dapat melapor melalui admin kampus."
+      medium:
+        - "Kampus menyediakan **Pos Keamanan (Pos PAM)** yang **beroperasi 24 jam** untuk menjaga keamanan area. Dalam keadaan darurat di dalam kampus, **mahasiswa yang sudah terdaftar** dapat melaporkannya melalui admin kampus secara resmi yang telah ditentukan."
+      long:
+        - "Untuk keamanan warga kampus, Politeknik Insan Tazakka menyediakan **Pos Keamanan (sering disebut Pos PAM)** yang **berjaga selama 24 jam non-stop**. Jika terjadi keadaan darurat di dalam area kampus, langkah yang harus diambil adalah: **Mahasiswa yang sudah terdaftar dan memiliki akses ke kontak resmi** dapat **menghubungi admin kampus** yang bertugas untuk menindaklanjuti laporan tersebut. Disarankan bagi mahasiswa baru untuk mengetahui prosedur dan kontak admin yang relevan setelah resmi terdaftar."
+
+  - questions:
+      - "Bagaimana cara meminjam ruangan di luar jam kuliah?"
+      - "Bisa pinjam kelas untuk kegiatan lain?"
+      - "Prosedur pinjam fasilitas kampus gimana?"
+      - "Syarat pinjam aula atau lab di luar jam operasional?"
+      # Typo Kecil
+      - "Gmn cara minjem ruangan klo udah malem?"
+      - "Bsa pinjem kelas buat acara?"
+      - "Prosedur pinjem fasilitas kampus?"
+      - "Syarat pinjam ruangan di luar jam kampus?"
+      # Typo Besar
+      - "cara pinjam kelas"
+      - "minjem ruangan buat organisasi"
+      - "prosedur pake lab malam"
+      - "syarat pinjam aula"
+    answers:
+      short:
+        - "Konfirmasi ke Bagian Kemahasiswaan untuk peminjaman fasilitas di luar jam operasional/kuliah."
+      medium:
+        - "Untuk meminjam ruangan atau fasilitas kampus (seperti kelas, laboratorium, atau aula) **di luar jam operasional biasa atau jam kuliah**, mahasiswa cukup **melakukan konfirmasi terlebih dahulu kepada Bagian Kemahasiswaan**. Prosesnya relatif mudah dengan syarat utama melakukan koordinasi dan konfirmasi resmi."
+      long:
+        - "Politeknik Insan Tazakka memperbolehkan peminjaman fasilitasnya di luar waktu reguler dengan prosedur yang jelas. Jika seorang mahasiswa atau kelompok mahasiswa ingin **menggunakan ruangan (kelas, lab, dll.) atau fasilitas kampus lainnya di luar jam operasional (setelah pukul 16.00) atau di luar jadwal kuliah**, maka **syarat utamanya adalah melakukan konfirmasi dan permohonan izin kepada Bagian Kemahasiswaan**. Dengan konfirmasi ini, pihak kemahasiswaan akan mencatat, mengatur jadwal, dan memberikan persetujuan penggunaan fasilitas tersebut."
+
+  - questions:
+      - "Bagaimana kampus mengumumkan jika ada perubahan jadwal atau libur mendadak?"
+      - "Kalau ada pengumuman dadakan, disampaikan lewat mana?"
+      - "Info libur atau kuliah off dikasih tau lewat apa?"
+      - "Apakah ada grup WhatsApp untuk pengumuman resmi?"
+      # Typo Kecil
+      - "Gmn klo ada perubahan jdwal, dikabarin lewat mana?"
+      - "Klo ada libur mendadak, diumumin dmn?"
+      - "Info dadakan lewat apa?"
+      - "Ada grup WA resmi ga?"
+      # Typo Besar
+      - "pengumuman dadakan dmn"
+      - "info libur lewat wa ga"
+      - "grup kampus buat pengumuman"
+      - "klo kuliah batal diumumin dmn"
+    answers:
+      short:
+        - "Pengumuman resmi, termasuk perubahan jadwal, disampaikan melalui grup WhatsApp resmi kampus."
+      medium:
+        - "Segala bentuk **pengumuman resmi** dari pihak kampus, termasuk **perubahan jadwal kuliah, libur mendadak, atau informasi operasional penting**, akan **dikirimkan melalui grup WhatsApp resmi** yang dikelola oleh administrasi kampus."
+      long:
+        - "Sebagai saluran komunikasi utama, Politeknik Insan Tazakka menggunakan **grup WhatsApp resmi** untuk menyampaikan segala pengumuman penting kepada mahasiswa. Ini termasuk, namun tidak terbatas pada: **perubahan jadwal kuliah secara mendadak, pengumuman libur, perubahan jam operasional, atau info darurat lainnya**. Oleh karena itu, sangat penting bagi setiap mahasiswa untuk bergabung dan aktif memantau grup WhatsApp resmi yang telah ditetapkan oleh program studi atau administrasi kampus mereka."
+
+  - questions:
+      - "Apakah hari Minggu kampus benar-benar tutup?"
+      - "Apa bisa ke kampus hari Minggu?"
+      - "Kegiatan di kampus hari Minggu ada ga?"
+      - "Minggu libur total ya?"
+      # Typo Kecil
+      - "Hari minggu kampus tutup ga?"
+      - "Bsa masuk kampus hari minggu?"
+      - "Aktivitas di kampus hari minggu?"
+      - "Minggu libur semuanya?"
+      # Typo Besar
+      - "minggu kpus tutup ga"
+      - "buka hari minggu"
+      - "kegiatan minggu"
+      - "libur hari ahad"
+    answers:
+      short:
+        - "Ya, hari Minggu merupakan hari libur operasional. Semua layanan dan fasilitas kampus tidak beroperasi."
+      medium:
+        - "Betul. **Hari Minggu ditetapkan sebagai hari libur operasional kampus secara keseluruhan**. Semua layanan administrasi, perkuliahan, dan fasilitas pendukung seperti perpustakaan dan laboratorium **tidak beroperasi** pada hari tersebut."
+      long:
+        - "**Hari Minggu adalah hari libur resmi** bagi seluruh aktivitas operasional Politeknik Insan Tazakka. Tidak ada jadwal kuliah, kantor administrasi tutup, dan fasilitas-fasilitas pendukung seperti perpustakaan, laboratorium, dan kantin juga tidak beroperasi. Kecuali untuk Pos Keamanan (Pos PAM) yang tetap berjaga 24 jam untuk alasan keamanan aset kampus. Tidak ada kegiatan akademik atau administrasi yang dijadwalkan pada hari Minggu."

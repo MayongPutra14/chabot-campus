@@ -1,0 +1,242 @@
+topic: akreditasi_kampus
+knowledge:
+  - questions:
+      - "Apa status akreditasi Politeknik Insan Tazakka?"
+      - "Bagaimana peringkat akreditasi kampus ini?"
+      - "Akreditasi kampusnya apa?"
+      - "Kampus ini terakreditasi apa?"
+      - "Akreditasi Poltek Tazakka berapa?"
+      - "Apa akreditasi terbaru kampus?"
+      # Typo Kecil
+      - "Status akrditasi kampus apa?"
+      - "Akrditasi kampusnya bgmn?"
+      - "Apa akreditasinya?"
+      - "Peringkat akreditasi apa?"
+      - "Akreditasi terbaru ap?"
+      # Typo Besar
+      - "akredit kampus brp"
+      - "status akred"
+      - "kampus tazakka akredit apa"
+      - "akred kampus"
+      - "nilai akreditasi poltek"
+      - "akred?"
+      - "akreditasi?"
+      - "akreditas?"
+      - "akredit?"
+      - "akrdt?"
+      - "akrd?"
+      - "akred kampus?"
+      - "kampus akred?"
+      - "status akred?"
+      - "akred berapa?"
+      - "akreditasi kampus?"
+      - "kampus terakred?"
+      - "akred BAN-PT?"
+      - "BAN-PT?"
+      - "LAM?"
+      - "akred LAM?"
+      - "akred baik?"
+      - "baik gak?"
+      - "akred berapa?"
+      - "akred nilai?"
+      - "akred sudah?"
+      - "sdh akred?"
+      - "udh akred?"
+      - "akred berlaku?"
+      - "masa akred?"
+      - "akred thn?"
+      - "akred tgl?"
+      - "tgl akred?"
+      - "akred dri?"
+      - "dri mana?"
+      - "akred dr?"
+      - "dr BAN-PT?"
+      - "dr LAM?"
+      - "akred BAIK?"
+      - "BAIK?"
+      - "akred baiik?"
+      - "baik?"
+      - "akred ban pt?"
+      - "ban pt?"
+      - "lam?"
+      - "lam infokom?"
+      - "lam teknik?"
+      - "akred lembaga?"
+      - "akred resmi?"
+      - "akred sah?"
+      - "akred kapan?"
+      - "akred 2025?"
+      - "akred des?"
+      - "des 2025?"
+      - "akred 5 des?"
+      - "akred berlaku?"
+      - "berlaku 5 thn?"
+      - "5 thn?"
+      - "akred sdah?"
+      - "akred udh?"
+      - "akred dpt?"
+      - "dpt akred?"
+      - "akred skrg?"
+      - "skrg akred?"
+      - "akred dri BAN?"
+      - "akred dri lam?"
+      - "akred dri ban?"
+      - "akred dri LAM?"
+      - "akred dri BAN-PT?"
+      - "akred dri LAM INFOKOM?"
+      - "akred dri LAM TEKNIK?"
+      - "akred dri 3?"
+      - "akred dri semua?"
+      - "akred dri semua lembaga?"
+      - "akred dri ban lam?"
+      - "akred dri ban pt lam?"
+      - "akred dri ban pt lam infokom lam teknik?"
+      - "akred dri ban pt, lam infokom, lam teknik?"
+
+    answers:
+      short:
+        - "Politeknik Insan Tazakka memiliki akreditasi institusi peringkat **BAIK**."
+      medium:
+        - "Politeknik Insan Tazakka telah meraih akreditasi institusi dengan peringkat **BAIK** dari BAN-PT. Akreditasi ini berlaku untuk seluruh kampus."
+      long:
+        - "Politeknik Insan Tazakka telah berhasil mendapatkan pengakuan resmi dari Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT). Status akreditasi institusi yang diraih adalah peringkat **BAIK**. Peringkat ini mencerminkan kualitas penyelenggaraan pendidikan tinggi di kampus secara keseluruhan dan berlaku sejak 5 Desember 2025."
+
+  - questions:
+      - "Apa saja program studi yang terakreditasi di Politeknik Insan Tazakka?"
+      - "Prodi apa saja yang ada dan akreditasinya?"
+      - "Semua prodi di Tazakka akreditasinya apa?"
+      - "Akreditasi untuk setiap jurusannya bagaimana?"
+      - "Bagaimana akreditasi prodi-prodi di sini?"
+      # Typo Kecil
+      - "Prodi yg ada apa aja dan akreditasinya?"
+      - "Jurusan2 di tazakka akreditasinya gmn?"
+      - "Apa sj prodi yg terakreditasi?"
+      - "Akreditasi tiap jurusan?"
+      # Typo Besar
+      - "list prodi dan akred"
+      - "jurusan akredit brp"
+      - "prodi tazakka nilai akred"
+      - "semua jurusan terakreditasi ga"
+      - "akred prodi"
+    answers:
+      short:
+        - "Ada 3 prodi: Teknik Rekayasa Komputer, Teknik Rekayasa Manufaktur, dan Teknik Rekayasa Logistik. Semuanya terakreditasi **BAIK**."
+      medium:
+        - "Politeknik Insan Tazakka memiliki tiga Program Studi (Prodi), yaitu: 1. Teknik Rekayasa Komputer, 2. Teknik Rekayasa Manufaktur, dan 3. Teknik Rekayasa Logistik. Ketiganya telah meraih akreditasi dengan peringkat **BAIK** dari lembaga akreditasi yang berwenang."
+      long:
+        - "Politeknik Insan Tazakka menyelenggarakan tiga Program Studi Diploma yang semuanya telah terakreditasi dengan baik. Berikut daftarnya beserta status akreditasinya: 1. **Teknik Rekayasa Komputer** (Terakreditasi BAIK), 2. **Teknik Rekayasa Manufaktur** (Terakreditasi BAIK), dan 3. **Teknik Rekayasa Logistik** (Terakreditasi BAIK). Akreditasi untuk ketiga prodi ini diberikan pada 29 Agustus 2024 dan merupakan bukti komitmen kampus terhadap kualitas pendidikan di setiap jurusan."
+
+  - questions:
+      - "Akreditasi dari lembaga mana saja yang dimiliki kampus?"
+      - "Siapa yang mengeluarkan akreditasi untuk Politeknik Insan Tazakka?"
+      - "Akreditasi BAIK itu dari BAN-PT saja?"
+      - "Lembaga akreditasi apa saja yang mengakui kampus ini?"
+      # Typo Kecil
+      - "Dari lembaga mana akreditasi kampus ini?"
+      - "Akreditasi dri siapa?"
+      - "Lembaga akreditasi yg mn?"
+      - "Pengeluarnya akreditasi siapa?"
+      # Typo Besar
+      - "akredit dr mn"
+      - "lembaga akredit"
+      - "siapa ngasih akred BAIK"
+      - "ban pt apa lam"
+    answers:
+      short:
+        - "Akreditasi dari BAN-PT, LAM INFOKOM, dan LAM TEKNIK."
+      medium:
+        - "Akreditasi peringkat BAIK untuk Politeknik Insan Tazakka dikeluarkan oleh Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT). Selain itu, prodi-prodi juga diakreditasi oleh Lembaga Akreditasi Mandiri seperti LAM INFOKOM dan LAM TEKNIK sesuai bidang ilmunya."
+      long:
+        - "Peringkat akreditasi **BAIK** yang diraih oleh Politeknik Insan Tazakka merupakan pengakuan resmi dari **Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT)**. Selain akreditasi institusi dari BAN-PT, program studi di kampus ini juga melalui proses akreditasi oleh **Lembaga Akreditasi Mandiri** sesuai rumpun ilmu. Untuk bidang teknologi informasi dan komputer, akreditasi dilakukan oleh **LAM INFOKOM**, sedangkan untuk bidang teknik dan manufaktur dilakukan oleh **LAM TEKNIK**. Hal ini menunjukkan standar kualitas yang diakui secara nasional."
+
+  - questions:
+      - "Berapa lama masa berlaku akreditasi kampus?"
+      - "Sampai kapan akreditasi BAIK ini berlaku?"
+      - "Kapan akreditasi akan kadaluarsa?"
+      - "Akreditasi berlaku untuk berapa tahun?"
+      # Typo Kecil
+      - "Masa berlaku akreditasi brp lama?"
+      - "Sampai kpn akreditasi ini?"
+      - "Akreditasi brikutnya kapan?"
+      - "Berapa thn akreditasi berlaku?"
+      # Typo Besar
+      - "akreditasi berlaku smp kapan"
+      - "masa berlaku akred"
+      - "kadaluarsa akredit kapan"
+      - "thn berlaku akreditasi"
+    answers:
+      short:
+        - "Akreditasi berlaku selama 5 tahun. Untuk kampus berlaku sejak 5 Desember 2025, untuk prodi sejak 29 Agustus 2024."
+      medium:
+        - "Masa berlaku akreditasi adalah **5 tahun**. Akreditasi institusi (kampus) diperoleh pada **5 Desember 2025**, sedangkan akreditasi untuk semua program studi telah diperoleh lebih dulu pada **29 Agustus 2024**."
+      long:
+        - "Seperti kebanyakan akreditasi perguruan tinggi, status akreditasi **BAIK** yang dimiliki Politeknik Insan Tazakka memiliki masa berlaku selama **lima tahun**. **Akreditasi institusi** diterbitkan pada tanggal **5 Desember 2025**, sehingga akan berlaku hingga Desember 2030. Sementara itu, **akreditasi untuk ketiga program studi** telah ditetapkan lebih awal, yaitu pada **29 Agustus 2024**, dan akan berlaku hingga Agustus 2029. Setelah periode tersebut, kampus akan menjalani proses re-akreditasi untuk mempertahankan atau meningkatkan peringkat."
+
+  - questions:
+      - "Apakah kampus sedang menuju akreditasi UNGGUL?"
+      - "Ada rencana naik akreditasi ke UNGGUL?"
+      - "Kapan mengejar akreditasi yang lebih tinggi?"
+      - "Apakah fokus sekarang meningkatkan akreditasi?"
+      # Typo Kecil
+      - "Apakah sdg menuju akreditasi UNGGUL?"
+      - "Rencana naik akreditasi ke yg lbh tinggi?"
+      - "Kpn mau naikkan akreditasi?"
+      - "Fokus ke akreditasi UNGGUL?"
+      # Typo Besar
+      - "akredit unggul kapan"
+      - "naik akreditasi ga"
+      - "rencana ke unggul"
+      - "fokus naikin akred"
+    answers:
+      short:
+        - "Saat ini kampus masih fokus meningkatkan kualitas fasilitas dan proses belajar setelah meraih akreditasi BAIK."
+      medium:
+        - "Setelah meraih akreditasi BAIK, fokus utama Politeknik Insan Tazakka saat ini adalah **konsolidasi dan peningkatan kualitas internal**, baik dari segi fasilitas maupun proses belajar mengajar. Peningkatan ke peringkat UNGGUL merupakan tujuan jangka panjang, namun saat ini belum dalam proses resmi menuju akreditasi tersebut."
+      long:
+        - "Pencapaian akreditasi **BAIK** menjadi landasan yang kuat bagi Politeknik Insan Tazakka. Saat ini, **prioritas kampus adalah mengonsolidasikan dan meningkatkan semua aspek penunjang kualitas pendidikan** berdasarkan hasil evaluasi dari proses akreditasi. Peningkatan mencakup penyempurnaan kurikulum, pengembangan fasilitas laboratorium dan pembelajaran, serta peningkatan kapasitas dosen dan tenaga kependidikan. Walaupun peningkatan status ke **UNGGUL** adalah aspirasi, namun kampus memilih untuk **memantapkan fondasi terlebih dahulu** sebelum memulai proses akreditasi level yang lebih tinggi di masa depan."
+
+  - questions:
+      - "Apa manfaat akreditasi BAIK bagi mahasiswa?"
+      - "Apa keuntungannya buat mahasiswa?"
+      - "Akreditasi ini berpengaruh ke ijazah ga?"
+      - "Bisa untuk daftar beasiswa ga dengan akreditasi ini?"
+      # Typo Kecil
+      - "Manfaat akreditasi BAIK bg mahasiswa?"
+      - "Keuntungan buat mhs apa?"
+      - "Pengaruh ke ijazah?"
+      - "Bsa utk daftar beasiswa?"
+      # Typo Besar
+      - "guna akred BAIK buat mhs"
+      - "manfaat buat anak kuliah"
+      - "ijazah diakui ga"
+      - "syarat beasiswa dr akredit"
+    answers:
+      short:
+        - "Ijazah diakui secara nasional dan memenuhi syarat untuk mendaftar berbagai beasiswa."
+      medium:
+        - "Akreditasi **BAIK** memberikan jaminan kualitas sehingga **ijazah yang diterima mahasiswa diakui secara nasional**. Selain itu, status akreditasi ini juga menjadi **prasyarat penting** untuk mengajukan berbagai jenis beasiswa, baik dari pemerintah, yayasan, maupun mitra industri."
+      long:
+        - "Status akreditasi **BAIK** membawa manfaat langsung dan tidak langsung bagi mahasiswa Politeknik Insan Tzaka: 1. **Pengakuan Ijazah**: Lulusan akan mendapatkan ijazah dari perguruan tinggi yang diakui kualitasnya oleh negara, sehingga berlaku untuk melamar kerja di instansi pemerintah/swasta atau melanjutkan studi ke jenjang yang lebih tinggi. 2. **Akses Beasiswa**: Banyak program beasiswa (seperti KIP-Kuliah, beasiswa yayasan, atau dari perusahaan) mensyaratkan bahwa penerima harus berasal dari perguruan tinggi terakreditasi minimal **BAIK**. 3. **Jaminan Kualitas Proses Belajar**: Mahasiswa dapat yakin bahwa mereka menempuh pendidikan di institusi yang telah memenuhi standar nasional pendidikan tinggi."
+
+  - questions:
+      - "Di mana bisa melihat sertifikat atau informasi resmi akreditasi ini?"
+      - "Bagaimana cara mengecek keabsahan akreditasi kampus?"
+      - "Link untuk cek akreditasi di BAN-PT ada?"
+      - "Bisa dicek di website kampus ga?"
+      # Typo Kecil
+      - "Dimana bisa liat sertifikat akreditasinya?"
+      - "Cara cek akreditasi yg resmi gmn?"
+      - "Link cek akreditasi di ban-pt?"
+      - "Ada di web kampus ga infonya?"
+      # Typo Besar
+      - "cek akreditasi di mn"
+      - "link ban pt"
+      - "sertif akred diliat dmn"
+      - "cara tau akreditasi asli"
+    answers:
+      short:
+        - "Informasi dapat dilihat di website BAN-PT atau datang langsung ke administrasi kampus."
+      medium:
+        - "Untuk memastikan keabsahan akreditasi, Anda dapat: 1. Mengecek langsung di situs resmi **BAN-PT**. 2. Mengunjungi website resmi Politeknik Insan Tazakka pada bagian profil atau informasi akademik. 3. Datang langsung ke bagian administrasi kampus untuk melihat sertifikat fisiknya."
+      long:
+        - "Keabsahan akreditasi Politeknik Insan Tazakka dapat diverifikasi melalui beberapa saluran resmi: 1. **Website BAN-PT**: Laman resmi Badan Akreditasi Nasional Perguruan Tinggi (https://banpt.or.id) menyediakan fitur pencarian data perguruan tinggi terakreditasi. 2. **Website Kampus**: Informasi akreditasi biasanya dipublikasikan di bagian 'Profil' atau 'Akademik' pada situs resmi Politeknik Insan Tazakka. 3. **Administrasi Kampus**: Anda dapat datang langsung ke bagian **Bagian Administrasi Akademik atau Kemahasiswaan** di kampus untuk meminta konfirmasi dan melihat **sertifikat akreditasi fisik** yang telah diterbitkan oleh BAN-PT, LAM INFOKOM, dan LAM TEKNIK. Cara terakhir ini sangat dianjurkan untuk kepastian maksimal."

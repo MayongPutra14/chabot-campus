@@ -2,7 +2,7 @@ import os
 os.environ["HF_HOME"] = "./model_cache"
 from chatbot.engine import ChatbotEngine
 
-bot = ChatbotEngine("data/knowledge")
+bot = ChatbotEngine("data")
 
 while True:
     user = input("Anda: ")

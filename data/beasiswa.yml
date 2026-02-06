@@ -1,0 +1,206 @@
+topic: beasiswa_kampus
+knowledge:
+  - questions:
+      - "Apa saja jenis beasiswa yang tersedia di Politeknik Insan Tazakka?"
+      - "Bisa tolong sebutkan macam-macam beasiswa di Poltek Tazakka?"
+      - "Beasiswa apa aja yang ada di kampus ini?"
+      - "Jenis2 beasiswa di Insan Tazakka apa ya?"
+      - "bsiswa di politknik insan tazaka ada apa saja?"
+      - "kalo mau dapetin bantuan biaya kuliah, ada program apa?"
+      # Typo kecil
+      - "Apa sj jnis beasiswa yg tdakr di Politeknik Insan Tazakka?"
+      - "Bsa tlong sebutkan mcam2 beasiswa di kampus ini?"
+      - "Beasisw apa saja yg tersedia?"
+      - "Jenis beasiswa di kampus Tazakka ada pa?"
+      # Typo besar
+      - "bea siswa ada brp"
+      - "jnis2 bsw tzk"
+      - "progm bntuan biya klsia"
+      - "bsw apa yg ad"
+      - "list bsuwa kampus"
+    answers:
+      short:
+        - "Ada tiga jalur utama: Pemerintah (UKT, KIP, KACER), Kompetensi (IPK/Prestasi & Tahfiz), dan Profesional (Mitra Industri)."
+      medium:
+        - "Beasiswa di Politeknik Insan Tazakka terbagi dalam tiga jalur. Pertama, jalur pemerintah seperti UKT, KIP, dan KACER (Karawang Cerdas). Kedua, jalur kompetensi berdasarkan IPK/prestasi atau hafalan Al-Qur'an (Tahfiz). Ketiga, jalur profesional melalui kerjasama mitra industri."
+      long:
+        - "Politeknik Insan Tazakka menyediakan beragam skema beasiswa untuk meringankan biaya pendidikan mahasiswa. Skema tersebut dikategorikan menjadi: 1. **Jalur Pemerintah:** Meliputi UKT, KIP Kuliah, dan Beasiswa KACER (Karawang Cerdas) dari pemda. 2. **Jalur Kompetensi:** Diberikan untuk mahasiswa berprestasi akademik (IPK tinggi) atau non-akademik (prestasi lomba), serta bagi penghafal Al-Qur'an (Tahfiz). 3. **Jalur Profesional:** Yaitu beasiswa dari mitra industri yang bekerja sama dengan kampus. Setiap jalur memiliki fokus, syarat, dan benefit yang berbeda."
+
+  - questions:
+      - "Bagaimana cara mendaftar beasiswa?"
+      - "Prosedur pendaftaran beasiswa bagaimana?"
+      - "Gimana sih caranya daftar beasiswa?"
+      - "untuk daftar beasiswa tuh gimana prosesnya?"
+      - "cra daftar bsiswa?"
+      - "klo mau ngajuin beasiswa, prosedurnya ke mana?"
+      # Typo kecil
+      - "Bagaimna cra mendaftar beasiswa?"
+      - "Prossedur pendfatran beasiswa gmn?"
+      - "Gmn caranya daftar bsiswa?"
+      - "untk daftar beasiswa tu bagaimana?"
+      # Typo besar
+      - "cara daftar bsw"
+      - "gmna daftar bea siswa"
+      - "prosedur daftr bsw"
+      - "mau daftar bsuwa gmna"
+      - "cara ngajuin bsiwa"
+    answers:
+      short:
+        - "Pendaftaran dilakukan secara manual ke Bagian Kemahasiswaan."
+      medium:
+        - "Untuk mendaftar beasiswa apa pun, kamu harus datang langsung ke kampus dan mengurus administrasinya di Bagian Kemahasiswaan Politeknik Insan Tazakka. Tidak ada pendaftaran online."
+      long:
+        - "Seluruh proses pendaftaran beasiswa di Politeknik Insan Tazakka dilakukan secara manual dan offline. Calon pendaftar atau mahasiswa harus datang langsung ke kampus, menemui staf di Bagian atau Biro Kemahasiswaan. Di sana, kamu akan mendapatkan informasi lengkap, formulir pendaftaran, dan bimbingan mengenai dokumen apa saja yang perlu dipersiapkan sesuai dengan jenis beasiswa yang ingin kamu ajukan."
+
+  - questions:
+      - "Kapan pendaftaran beasiswa dibuka?"
+      - "Biasanya buka beasiswa tiap kapan?"
+      - "Waktu pendftrn beasiswanya kapan aja?"
+      - "KACER bukanya kapan?"
+      - "beasiswa tahfiz buka kapan ya?"
+      - "periode bsiwa kapan?"
+      # Typo kecil
+      - "Kpn pendftran beasiswa dbuka?"
+      - "Biasany buka beasiswa tiap kpn?"
+      - "Wktu pendaftaran beasiswanya kapan?"
+      - "KACER buka kpn?"
+      # Typo besar
+      - "buka bsw kapan"
+      - "kcer buka bln apa"
+      - "wkt daftar bsuwa"
+      - "tahfiz buka kpn"
+      - "period bsw"
+    answers:
+      short:
+        - "Beasiswa KACER di awal semester ganjil. Beasiswa Tahfiz di awal pendaftaran mahasiswa baru."
+      medium:
+        - "Waktu pendaftaran berbeda per jenis. Beasiswa KACER (Karawang Cerdas) biasanya dibuka pada awal tahun ajaran baru, yaitu Semester Ganjil. Sementara untuk Beasiswa Tahfiz, pendaftarannya dibuka bersamaan dengan proses penerimaan mahasiswa baru atau awal pendaftaran."
+      long:
+        - "Periode pendaftaran beasiswa disesuaikan dengan jenisnya. Untuk beasiswa pemerintah seperti KACER (Karawang Cerdas), penetapan kuota dan pengumuman penerimaan biasanya dilaksanakan setiap awal Semester Ganjil. Sedangkan beasiswa jalur Tahfiz Qur'an dapat diajukan sejak awal proses pendaftaran mahasiswa baru. Sangat disarankan untuk aktif menanyakan jadwal pastinya ke Bagian Kemahasiswaan karena bisa saja ada perubahan."
+
+  - questions:
+      - "Apa syarat beasiswa tahfiz?"
+      - "Beasiswa tahfiz itu perlu hafal berapa juz?"
+      - "buat dapet beasiswa tahfidz, harus ngapain?"
+      - "minimal hafalan buat bsiwa tahfiz brp?"
+      - "syarat beasiswa tahfiz quran apa?"
+      - "utk bsiawa tahfiz, testnya apa?"
+      # Typo kecil
+      - "Apa syrat beasiswa tahfiz?"
+      - "Beasiswa tahfiz perlu hafal brp juz?"
+      - "Minimal hafalan untuk beasiswa tahfiz brapa?"
+      - "Syarat beasisw tahfiz quran?"
+      # Typo besar
+      - "srat bsw tahfiz"
+      - "hafal brp juz u/ bsw tahfiz"
+      - "test tahfidz brapa juz"
+      - "minimal juz tahfiz"
+      - "bsw tahfiz syaratny"
+    answers:
+      short:
+        - "Minimal hafalan 5 juz, dibuktikan dengan tes lisan."
+      medium:
+        - "Syarat utama beasiswa Tahfiz adalah memiliki hafalan Al-Qur'an minimal 5 juz. Hafalan tersebut akan diuji secara langsung (tes lisan) oleh pihak kampus untuk membuktikan kebenarannya sebelum beasiswa disetujui."
+      long:
+        - "Beasiswa Tahfiz Qur'an diberikan kepada calon mahasiswa atau mahasiswa yang memiliki kemampuan menghafal Al-Qur'an. Syarat utamanya adalah **hafalan minimal 5 juz**. Pihak kampus, melalui tim penguji yang kompeten, akan mengadakan tes hafalan secara lisan (simak) untuk memverifikasi kemampuan tersebut. Dokumen pendukung seperti sertifikat tahfiz juga bisa menjadi nilai tambah, tetapi tes langsung tetap wajib diikuti."
+
+  - questions:
+      - "Bagaimana cara mendapatkan beasiswa mitra industri?"
+      - "Beasiswa dari perusahaan gimana caranya?"
+      - "Gimana supaya dapet uang saku dari mitra industri?"
+      - "cra dpt bsiswa industri?"
+      - "kerja sama mitra industri itu seperti apa?"
+      - "bsuwa dari pabrik ada ga?"
+      # Typo kecil
+      - "Bagaimna cara dpat beasiswa mitra industri?"
+      - "Beasiswa dri perusahaan gmn?"
+      - "Gmn supaya dpt uang saku mitra industri?"
+      - "Kerjasama mitra industri itu spt apa?"
+      # Typo besar
+      - "cara dpt bsw mitra"
+      - "dpt duit dr mitra industri gmna"
+      - "bea siswa perusahaan"
+      - "mitra industri caranya"
+      - "bsw pabrik"
+    answers:
+      short:
+        - "Dengan mengikuti program mitra industri yang bekerja sama dengan kampus. Hubungi administrasi untuk info detail."
+      medium:
+        - "Beasiswa mitra industri diberikan kepada mahasiswa yang tergabung dalam program kerjasama antara kampus dan perusahaan tertentu. Cara mendapatkannya adalah dengan mengikuti seleksi atau program magang/kerja dari mitra industri tersebut. Untuk informasi mitra mana yang sedang membuka peluang, kamu harus menghubungi administrasi kampus."
+      long:
+        - "Beasiswa jalur profesional (Mitra Industri) merupakan bentuk kerjasama antara Politeknik Insan Tazakka dengan berbagai perusahaan rekanan. Mahasiswa dapat memperoleh beasiswa ini dengan cara menjadi bagian dari program magang, pelatihan, atau ikatan dinas yang diselenggarakan oleh mitra industri tersebut. Benefitnya biasanya sangat baik, seperti pembebasan biaya kuliah hingga lulus dan pemberian uang saku bulanan. Langkah pertama adalah menanyakan daftar perusahaan mitra dan program yang aktif ke bagian administrasi atau kemahasiswaan kampus."
+
+  - questions:
+      - "Apa benefit beasiswa mitra industri?"
+      - "Keuntungan beasiswa dari perusahaan apa?"
+      - "Kalo dapet beasiswa industri, dapet apa aja?"
+      - "uang saku dari mitra industri berapa?"
+      - "apakah mitra industri bayar ukt?"
+      # Typo kecil
+      - "Apa benefit beasiswa mitra industri?"
+      - "Keuntungan beasiswa dri perusahaan?"
+      - "Kalo dpt beasiswa industri, dpt apa saja?"
+      - "Uang saku mitra industri brp?"
+      # Typo besar
+      - "keuntungan bsw mitra"
+      - "dpt apa klo bsw industri"
+      - "mitra industri byr ukt ga"
+      - "benefit bsuwa pabrik"
+      - "duit saku dr mitra"
+    answers:
+      short:
+        - "Dibebaskan dari biaya kuliah selama kerjasama dan dapat uang saku bulanan."
+      medium:
+        - "Benefit utama beasiswa mitra industri adalah pembebasan biaya kuliah (SPP/UKT) selama masa studi hingga lulus, asalkan masih aktif dalam program kerjasama. Selain itu, mahasiswa juga biasanya menerima uang saku atau tunjangan hidup setiap bulannya dari perusahaan mitra."
+      long:
+        - "Mahasiswa penerima beasiswa mitra industri menikmati benefit yang komprehensif. **Benefit finansial** meliputi: 1. **Pembebasan biaya kuliah** (SPP/UKT) sepenuhnya selama masih terikat dalam program kerjasama dan hingga waktu kelulusan. 2. **Menerima uang saku bulanan** dari perusahaan dengan nominal yang disesuaikan kebijakan mitra. **Benfaat non-finansial** termasuk pengalaman kerja langsung di industri, jaringan profesional, dan peluang karir yang lebih besar di perusahaan tersebut setelah lulus."
+
+  - questions:
+      - "Beasiswa KACER itu apa?"
+      - "Apa itu KACER?"
+      - "Karawang Cerdas dapat uang ga?"
+      - "KACER termasuk beasiswa pemerintah?"
+      - "bsiswa kacer dari mana?"
+      # Typo kecil
+      - "Beasiswa KACER itu ap?"
+      - "Apa itu KACER?"
+      - "Karawang Cerdas dpt uang g?"
+      - "KACER trmsuk beasiswa pemerintah?"
+      # Typo besar
+      - "bsw kacer apaan"
+      - "artinya kacer"
+      - "karawang cerdas dpt duit ga"
+      - "kacer dr mn"
+      - "apa kacer"
+    answers:
+      short:
+        - "Beasiswa KACER (Karawang Cerdas) dari pemerintah daerah, memberikan bantuan uang tunai."
+      medium:
+        - "KACER (Karawang Cerdas) adalah program beasiswa dari Pemerintah Kabupaten Karawang untuk mahasiswa berprestasi atau kurang mampu. Beasiswa ini memberikan bantuan berupa sejumlah uang tunai tertentu kepada mahasiswa yang memenuhi syarat."
+      long:
+        - "Beasiswa KACER merupakan akronim dari **Karawang Cerdas**. Ini adalah program bantuan pendidikan yang digulirkan oleh Pemerintah Daerah Kabupaten Karawang bagi putra-putri daerah yang kuliah di perguruan tinggi di Karawang, termasuk Politeknik Insan Tazakka. Beasiswa ini berbentuk **bantuan dana tunai** dengan nominal tertentu yang diberikan langsung kepada mahasiswa penerima. Informasi kuota dan pengumuman pendaftarannya disampaikan oleh kampus melalui media resmi."
+
+  - questions:
+      - "Untuk info lebih lanjut, hubungi ke mana?"
+      - "Kalo mau tanya-tanya detail beasiswa, tanya ke siapa?"
+      - "Kontak bagian beasiswa ada ga?"
+      - "bisa tanya2 di mana?"
+      - "disarankan ke kampus langsung ya?"
+      # Typo kecil
+      - "Untuk info lbh lanjut, hubungi kemana?"
+      - "Kalo mau tanya2 detail beasiswa, tanya ksiapa?"
+      - "Kontak bagian beasiswa ada g?"
+      - "Bisa tanya2 dmn?"
+      # Typo besar
+      - "info lengkap dmn"
+      - "tanya bsw ksiapa"
+      - "kontak buat nanya bsuwa"
+      - "hrs dtg ke kampus ya"
+      - "tlpn bagian bsw"
+    answers:
+      short:
+        - "Disarankan datang langsung ke kampus untuk penjelasan detail."
+      medium:
+        - "Karena informasi bisa sangat detail dan personal, pihak kampus menyarankan untuk datang langsung ke Politeknik Insan Tazakka. Dengan datang, kamu bisa berkonsultasi face-to-face dengan staf kemahasiswaan dan mendapatkan penjelasan yang lengkap serta formulir pendaftaran."
+      long:
+        - "Mengingat kompleksitas dan spesifikasi setiap beasiswa, metode terbaik untuk mendapatkan informasi yang akurat dan lengkap adalah dengan **datang secara langsung ke kampus**. Dengan datang ke Bagian Kemahasiswaan Politeknik Insan Tazakka, kamu bisa melakukan konsultasi tatap muka, menyampaikan kondisi pribadi, memeriksa kelengkapan dokumen, dan mendapatkan arahan yang tepat sesuai jalur beasiswa yang kamu minati. Ini lebih efektif dibandingkan konsultasi daring mengingat proses administrasi yang manual."

@@ -8,10 +8,10 @@ knowledge:
       - nomornya berapa
       - wa kampus
       - admin kampus
-      - kontaknya?
-      - ada nomor?
-      - wa nya?
-      - admin?
+      - kontaknya
+      - ada nomor
+      - wa nya
+      - admin
       - hubungi ke mana
 
       # =====================
@@ -60,7 +60,7 @@ knowledge:
       # =====================
       - email kampus
       - emailnya apa
-      - ada email?
+      - ada email
       - email resmi
       - email admin
       - mana emailnya
@@ -147,7 +147,7 @@ knowledge:
       - alamat kampus
       - kampusnya di mana
       - lokasi kampus
-      - alamatnya?
+      - alamatnya
       - di mana kampusnya
 
       # =====================
